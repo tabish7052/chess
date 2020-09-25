@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="browserconfig.xml">
+    <meta name="theme-color" content="#536dfe">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="neda">
+    <title>Neda Hospital</title> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="search_icon fa fa-search"></div>
+    <div class="searchbar">
+        <form action="#">
+            <input type="search" name="search" autocomplete="off" placeholder="search here" id="search_input"> <br>
+        </form>
+    </div>
+
+
+    <div class="navbar_icon fa fa-bars "> </div>
+    <div class="navbar">
+        <ul class="menu ">
+            <li><a href="#" data-text="home" class="text-primary">&nbsp; Home &nbsp; </a></li>
+            <li><a href="#" data-text="about" class="text-primary">&nbsp; About &nbsp; </a></li>
+            <li><a href="#" data-text="contact" class="text-primary">&nbsp; Contact &nbsp; </a></li> 
+        </ul>
+    </div>
+
+    <div class="header_circle"></div>
+    <div class="svg">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 250">
+            <path fill="#fff" fill-opacity="1"
+                d="M0,96L48,122.7C96,149,192,203,288,197.3C384,192,480,128,576,133.3C672,139,768,213,864,218.7C960,224,1056,160,1152,138.7C1248,117,1344,139,1392,149.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+        <h1 class="text-center text-primary mt-2">Neda Hospital</h1> <br><br><br><br><br>
+        
+     
+        
+        
+        <div class="header_text">
+            <h1><span class="animation__header_text">Health Care</span>.</h1>
+            <h3>   For Hole Family <br>
+                In healthcare sector,service excellence is the facility of <br>
+                the hospital as healthcare service provider to consistently.  </h3>
+        </div>
+    </div>
+
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="img-fluid"src="ambulance.png" style=height:60px;/>
+             <h3 class="mt-3">Hospitality</h3>
+             <p class="mt-3">Clinical excellence must be the priority<br/>for any healthcare service provider.</p>
+             <a href="#"class="btn btn-primary">Apply For A Bed</a>
+             
+             
+             
+            </div>
+            <div class="col-lg-4">
+                <img class="img-fluid"src="emergency.jpg" style=height:60px;/>
+                <h3 class="mt-3">Emergency Care</h3>
+                <p class="mt-3">Clinical excellence must be the priority<br/>for any healthcare service provider.</p>
+             <a href="#"class="btn btn-danger">+10 672 356 3567</a>
+             
+            </div>
+            <div class="col-lg-4">
+                <img class="img-fluid"src="chamber.png" style=height:60px;/>
+             <h3 class="mt-3">Chamber Service</h3>
+             <p class="mt-3">Clinical excellence must be the priority<br/>for any healthcare service provider.</p>
+             <a href="#"class="btn btn-primary">Make An Appointment</a>
+             
+            </div>
+             </div> 
+             
+              
+             <img class="img-responsive"  src="medicine.svg" alt="">
+             <img class="img-responsive"  src="medicine.svg" alt="">
+             <img class="img-responsive"  src="medicine.svg" alt="">
+             <img class="img-responsive"  src="medicine.svg" alt="">
+             <img class="img-responsive"  src="medicine.svg" alt="">
+             <img class="img-responsive"  src="medicine.svg" alt="">
+             <img class="img-responsive"  src="medicine.svg" alt="">
+             <img class="img-responsive"  src="medicine.svg" alt="">
+             <img class="img-responsive"  src="medicine.svg" alt="">
+             <img class="img-responsive"  src="medicine.svg" alt="">
+             <img class="img-responsive"  src="medicine.svg" alt="">
+             <img class="img-responsive"  src="medicine.svg" alt="">
+             <img class="img-responsive"  src="medicine.svg" alt="">
+             <img class="img-responsive"  src="medicine.svg" alt="">
+             <img class="img-responsive"  src="medicine.svg" alt="">
+             <img class="img-responsive"  src="medicine.svg" alt="">
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        let menu_toggel = document.querySelector(".navbar_icon");
+        let menu = document.querySelector(".menu");
+        menu_toggel.addEventListener("click", () => {
+            menu.classList.toggle("active");
+        })
+
+        let search_toggel = document.querySelector(".search_icon");
+        let search = document.querySelector(".searchbar");
+        search_toggel.addEventListener("click", () => {
+            search.classList.toggle("active");
+        })
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="https://raw.githubusercontent.com/mattboldt/typed.js/master/src/typed.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script>
+        var typed = new Typed('.type_text', {
+            strings: ["", "MBBS", "MD", "EYE SURGEON", "NURO SURGEON"],
+            loop: true,
+            backSpeed: 30,
+            typeDelay: 1000,
+            cursorChar: '_',
+            typeSpeed: 100
+
+        });
+    </script>
+</body>
+
+</html>
